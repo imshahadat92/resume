@@ -4,16 +4,17 @@ body {
   background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 }
 
-.container-fluid {
-  padding: 3% 15%;
+.container {
+  width: 100%;
+  padding-top: 2%;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
-  margin-top: 10%;
+  width: 10%;
+  margin-top: 8%;
 }
 
 .proname {
@@ -25,8 +26,7 @@ img {
 
 h3 {
   color: #FFFFFF;
-  margin: 0%;
-}
+  }
 
 hr {
   border: dotted #FFFFFF 6px;
@@ -38,17 +38,14 @@ hr {
 
 .line {
   width: 100%;
-  top: 0%;
 }
 
 .geeks {
-  width: 250px;
+  width: 100%;
   height: 2px;
   background: #fff;
-  position: absolute;
   transform: translate(-50%, -50%);
-  margin-left: 23%;
-  margin-top: 0%;
+  margin-left: 50%
 }
 
 @media only screen and (max-width:768px) {
@@ -91,13 +88,13 @@ hr {
   box-shadow: 0 0 5px 0;
   background: inherit;
   backdrop-filter: blur(10px);
-  margin-top: 2%;
+  margin: 3% 3% 3% 3%;
   align-content: center;
 }
 
 table {
   padding: 1%;
-  font-size: 20px;
+  font-size: 15px;
   color: #FFFFFF;
   text-align: top;
 }
@@ -118,11 +115,15 @@ section {
   width: auto;
 }
 
-h4,
-h5 {
+h4 {
   padding: 0%;
   margin: 0%;
   color: #FFFFFF;
+}
+
+h6 {
+  padding: 0px;
+  margin: 0px;
 }
 
 p {
@@ -272,7 +273,7 @@ p {
   position: fixed;
   top: 0;
   right: 0%;
-  width: 10px;
+  width: 5px;
   height: 100%;
   background: rgba(255, 255, 255, 0.05);
 }
@@ -281,7 +282,7 @@ p {
   position: fixed;
   top: 0;
   right: 0%;
-  width: 10px;
+  width: 5px;
   height: 100%;
   background: linear-gradient(to bottom, #26a0da 0%, #00DBDE 51%, #FC00FF 100%);
   animation: animate 5s linear infinite;
